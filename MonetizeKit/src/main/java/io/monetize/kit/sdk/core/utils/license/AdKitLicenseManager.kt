@@ -21,7 +21,7 @@ import java.security.MessageDigest
 // Google Apps Script web app URL (ends with /exec), see tools/license-server/Code.gs.
 // Empty = license check off and every app is allowed.
 private const val LICENSE_ENDPOINT =
-    "https://script.google.com/macros/s/AKfycbzzqX2qTf4dxWzbyQc6SgD9rGpClRl_Sqe_rjR5IKfahKoElMtllawuSvkienU71-ra/exec"
+    ""
 
 // One check per device every 12 hours keeps the Apps Script well within its quotas
 private const val CHECK_INTERVAL_MS = 12 * 60 * 60 * 1000L
