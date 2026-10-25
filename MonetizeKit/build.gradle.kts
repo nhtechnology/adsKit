@@ -52,8 +52,8 @@ androidComponents {
     }
 }
 
-group = "com.github.Usman228811"
-version = "4.0.11-rc"
+group = "com.github.nhtechnology"
+version = "4.0.11.1-rc"
 
 
 afterEvaluate {
@@ -61,9 +61,9 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.Usman228811"
+                groupId = "com.github.nhtechnology"
                 artifactId = "MonetizeKit"
-                version = "4.0.11-rc"
+                version = "4.0.11.1-rc"
             }
         }
     }
