@@ -3,7 +3,7 @@
 A comprehensive Kotlin library for Android (Jetpack Compose + XML), designed to streamline monetization with support for ads, in-app updates, in-app review, in-app purchases, subscriptions, App-Flyer, and analytics.
 
 > **License: proprietary, authorized apps only.**
-> This repository is public, but MonetizeKit may only be used in apps authorized by the owner. The library verifies each app (package name and signing certificate) with the owner's server; unauthorized apps may stop working, and the owner may report them to Google Play and other stores for removal. See [LICENSE](LICENSE). To request authorization, contact [usman228811@gmail.com](mailto:usman228811@gmail.com).
+> This repository is public, but MonetizeKit may only be used in apps authorized by the owner. The library verifies each app (package name and signing certificate) with the owner's server; unauthorized apps may stop working, and the owner may report them to Google Play and other stores for removal. See [LICENSE](LICENSE). To request authorization, contact [nh.technlogy@gmail.com](mailto:nh.technlogy@gmail.com).
 
 ---
 
@@ -17,29 +17,29 @@ To integrate the Monetization Kit into your project, include the following in yo
 dependencies {
 
     // Standard SDK 
-    implementation("com.github.Usman228811:montization-kit:4.0.11")
+    implementation("com.github.nhtechnology:adsKit:4.0.11.1")
 
     // Standard SDK + Mediation Adapters
-    implementation("com.github.Usman228811:montization-kit:4.0.11-adapter")
+    implementation("com.github.nhtechnology:adsKit:4.0.11.1-adapter")
 
     // RevenueCat Support
-    implementation("com.github.Usman228811:montization-kit:4.0.11-rc")
+    implementation("com.github.nhtechnology:adsKit:4.0.11.1-rc")
 
     // RevenueCat + Mediation Adapters
-    implementation("com.github.Usman228811:montization-kit:4.0.11-rc-adapter")
+    implementation("com.github.nhtechnology:adsKit:4.0.11.1-rc-adapter")
 
 
     // Next Gen SDK
-    implementation("com.github.Usman228811:montization-kit:1.0.16-ng")
+    implementation("com.github.nhtechnology:adsKit:1.0.16.1-ng")
 
     // Next Gen SDK + Mediation
-    implementation("com.github.Usman228811:montization-kit:1.0.16-ng-adapter")
+    implementation("com.github.nhtechnology:adsKit:1.0.16.1-ng-adapter")
 
     // RevenueCat Support
-    implementation("com.github.Usman228811:montization-kit:1.0.16-ng-rc")
+    implementation("com.github.nhtechnology:adsKit:1.0.16.1-ng-rc")
 
     // RevenueCat + Mediation Adapters
-    implementation("com.github.Usman228811:montization-kit:1.0.16-ng-rc-adapter")
+    implementation("com.github.nhtechnology:adsKit:1.0.16.1-ng-rc-adapter")
 
 }
 ```
