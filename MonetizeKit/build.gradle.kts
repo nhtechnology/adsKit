@@ -55,7 +55,7 @@ androidComponents {
 }
 
 group = "com.github.nhtechnology"
-version = "4.0.11"
+version = "4.0.11.1"
 
 
 afterEvaluate {
@@ -65,7 +65,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.nhtechnology"
                 artifactId = "MonetizeKit"
-                version = "4.0.11"
+                version = "4.0.11.1"
             }
         }
     }

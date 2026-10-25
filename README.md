@@ -17,29 +17,29 @@ To integrate the Monetization Kit into your project, include the following in yo
 dependencies {
 
     // Standard SDK 
-    implementation("com.github.nhtechnology:adsKit:4.0.11")
+    implementation("com.github.nhtechnology:adsKit:4.0.11.1")
 
     // Standard SDK + Mediation Adapters
-    implementation("com.github.nhtechnology:adsKit:4.0.11-adapter")
+    implementation("com.github.nhtechnology:adsKit:4.0.11.1-adapter")
 
     // RevenueCat Support
-    implementation("com.github.nhtechnology:adsKit:4.0.11-rc")
+    implementation("com.github.nhtechnology:adsKit:4.0.11.1-rc")
 
     // RevenueCat + Mediation Adapters
-    implementation("com.github.nhtechnology:adsKit:4.0.11-rc-adapter")
+    implementation("com.github.nhtechnology:adsKit:4.0.11.1-rc-adapter")
 
 
     // Next Gen SDK
-    implementation("com.github.nhtechnology:adsKit:1.0.16-ng")
+    implementation("com.github.nhtechnology:adsKit:1.0.16.1-ng")
 
     // Next Gen SDK + Mediation
-    implementation("com.github.nhtechnology:adsKit:1.0.16-ng-adapter")
+    implementation("com.github.nhtechnology:adsKit:1.0.16.1-ng-adapter")
 
     // RevenueCat Support
-    implementation("com.github.nhtechnology:adsKit:1.0.16-ng-rc")
+    implementation("com.github.nhtechnology:adsKit:1.0.16.1-ng-rc")
 
     // RevenueCat + Mediation Adapters
-    implementation("com.github.nhtechnology:adsKit:1.0.16-ng-rc-adapter")
+    implementation("com.github.nhtechnology:adsKit:1.0.16.1-ng-rc-adapter")
 
 }
 ```
